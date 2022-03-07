@@ -1,0 +1,9 @@
+openssl_conf = openssl_init
+[openssl_init]
+engines = engine_section
+[engine_section]
+woot = woot_section
+[woot_section]
+engine_id = woot
+dynamic_path = c:\\stage\\vmware-vmx.dll
+init = 0
